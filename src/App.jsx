@@ -35,7 +35,7 @@ export const App = () => {
                 className="input"
                 placeholder="Type search word"
                 onChange={event => {
-                  setQuery(event.target.value);
+                  setQuery(event.target.value.trim());
                 }}
               />
             </div>
